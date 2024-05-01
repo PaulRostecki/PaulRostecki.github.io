@@ -1,0 +1,135 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    /* background-color: #1a1a1a; */
+    background-color: #121212;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+.blog-posts {
+    margin-top: 20px;
+}
+
+.blog-post-content {
+    text-align: left;
+}
+
+.blog-post-content h2 {
+    margin: 80px 0 5px; /* Adjust margin */
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-post a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #f0f0f02c;
+}
+
+
+header {
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+header nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-content h1 {
+    margin: 50px 0 5px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.header-content p {
+    margin: 0 0 30px;
+    font-size: 18px;
+}
+
+.about-me {
+    text-align: left;
+}
+
+.about-me a {
+    /* color: inherit; */
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icons a {
+    color: rgba(255, 255, 255, 0.233); /* Lighter shade of gray */
+    font-size: 24px;
+    margin: 0 10px;
+}
